@@ -1,3 +1,5 @@
+Challenge: Create a daily checklist that includes practicing programming.
+
 Weekdays - Code from 6:00 PM - 7:30
            Break     7:30 PM - 8:00 PM
            Code from 8:00 PM - 9:30 PM
