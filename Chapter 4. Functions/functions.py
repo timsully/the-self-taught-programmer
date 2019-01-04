@@ -64,4 +64,12 @@ even_odd(2)
 even_odd(3)
 
 
-
+# Don't use variables defined in a try statement in an except statement,
+# because an exception could occur before the variable is defined
+# and an exception will get raised inside of your except statement
+# when you try to use it:
+try:
+  10 / 0
+  c = "I will never get defined."
+except ZeroDivisionError:
+  print(c)
