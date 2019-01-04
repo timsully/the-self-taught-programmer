@@ -2,9 +2,9 @@
 # def [function_name]([parameters]):
 #     [function_definition]
 
-#def f(x):
+# def f(x):
 #  return x * 2
-#f(8)
+# f(8)
 
 def f(x):
   return x + 1
